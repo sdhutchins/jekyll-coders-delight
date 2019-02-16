@@ -18,7 +18,7 @@ style: default               # choose between "default", "contrast" and "minimal
 dark_theme: false            # enables dark mode
 
 navigation:                  # (optional) site navigation in the header
-  - index.html
+  - index.md
   - archive.md
   - about.md
 
@@ -31,7 +31,7 @@ comments:                    # embed disqus or isso comments
 #  disqus: ""
 #  isso: ""
 
-plugins: 
+plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout

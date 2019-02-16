@@ -5,16 +5,16 @@
 
 ## Installation (recommended)
 
-Just fork the repo and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+Just fork the repo and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/), and your page is done.
 
 *Note:* If you want to use this theme in a subfolder, then you need to create a `gh-pages` branch in your repo.
 
 ## Installation (jekyll-remote-theme method)
 
-You can also create an empty repo, add `index.html` and `archive.html` files, which can be empty but need to contain front matter, and add this to your `_config.yml`:
+You can also create an empty repo, add `index.md` and `archive.md` files, which can be empty but need to contain front matter, and add this to your `_config.yml`:
 
 ```yaml
-remote_theme: niklasbuschmann/contrast
+remote_theme: sdhutchins/jekyll-coders-delight
 
 plugins:
   - jekyll-remote-theme
@@ -41,6 +41,7 @@ For an example repo you can look at the [demo](https://github.com/niklasbuschman
 - [Font Awesome](http://fontawesome.io/)
 - [KaTeX](https://katex.org/)
 - [Pygments](https://github.com/richleland/pygments-css)
+- [Contrast](https://github.com/jekyll/contrast)
 
 ## License
 
