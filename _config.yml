@@ -2,6 +2,13 @@ title: ""
 author: ""
 description: ""
 
+# Jekyll SEO
+url: ""
+twitter:
+  username: ""
+  card: summary
+logo: ""
+
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
 paginate: 2                  # number of articles per page, remove to disable pagination
@@ -35,3 +42,4 @@ plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout
+ - jekyll-seo-tag
