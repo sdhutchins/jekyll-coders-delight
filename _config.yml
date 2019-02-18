@@ -1,5 +1,5 @@
-title: ""
-author: ""
+title: "Jekyll Coders Delight"
+author: "Shaurita Hutchins"
 description: ""
 
 # Jekyll SEO
@@ -21,11 +21,11 @@ post_footer: true            # show previous and next links at the end of each p
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 
 # Theme settings
-style: default               # choose between "default", "contrast" and "minimal"
+style: minimal            # choose between "default", "contrast" and "minimal"
 dark_theme: false            # enables dark mode
 
 navigation:                  # (optional) site navigation in the header
-  - index.md
+  - index.html
   - archive.md
   - about.md
 
