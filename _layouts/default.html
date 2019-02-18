@@ -9,6 +9,7 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
+<link href="https://fonts.googleapis.com/css?family=Cairo|Share+Tech+Mono" rel="stylesheet">
 <link rel="stylesheet" href="{{ site.style | default: 'default' | prepend: '/assets/css/' | append: '.css' | relative_url }}">
 {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title }}" />{% endif %}
 {% if page.mathjax or site.mathjax %}
@@ -25,7 +26,7 @@
 <body class="{% if site.dark_theme %}dark{% else %}light{% endif %}">
 
 <header>
-  {% unless site.hide_title %}<h1><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>{% endunless %}
+  {% unless site.hide_title %}<h1 class="special-title"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>{% endunless %}
   {% if site.navigation %}<nav>{% for path in site.navigation %}{% assign node = site.pages | where: "name", path | first %}<a href="{{ node.url | relative_url }}">{{ node.title }}</a>{% endfor %}</nav>{% endif %}
   {% if site.icons %}<nav>{% for link in site.icons %}<a class="icon" href="{{ link[1] }}"><svg><use xlink:href="{{ '/assets/fontawesome/icons.svg' | relative_url }}#{{ link[0] }}"></use></svg></a>{% endfor %}</nav>{% endif %}
 </header>
