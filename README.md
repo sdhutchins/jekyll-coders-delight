@@ -23,7 +23,7 @@ plugins:
   - jekyll-remote-theme
 ```
 
-For an example repository, you can look at the [demo](https://www.shauritahutchins.com/jekyll-coders-delight/) of this theme.
+For an example repository, you can look at the [demo](https://shaurita.codes/) of this theme.
 
 ## Features
 
