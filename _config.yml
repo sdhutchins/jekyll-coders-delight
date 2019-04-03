@@ -46,3 +46,4 @@ plugins:
  - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-default-layout
+ - jekyll-remote-theme
