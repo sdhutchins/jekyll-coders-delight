@@ -9,6 +9,9 @@ twitter:
   card: summary
 logo: ""
 
+# Google Analytics
+google-analytics: ""
+
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
 paginate: 2                  # number of articles per page, remove to disable pagination
