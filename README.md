@@ -1,7 +1,10 @@
-# Contrast
+# jekyll-coders-delight
 
-![screenshot](https://user-images.githubusercontent.com/4943215/50294425-2da5bf80-0476-11e9-8a27-8c59a7192cf6.png)
-![screenshot](https://user-images.githubusercontent.com/4943215/50294472-3f876280-0476-11e9-8458-6a40fe735335.png)
+:warning: This theme is currently a work in progress! 
+
+`jekyll-coders-delight` is a jekyll theme built for coders or programmers who want a minimal, code-friendly, and sleek blog design.
+
+It is built on top of the [`contrast`](https://github.com/niklasbuschmann/contrast) jekyll theme, which was created by [@niklasbuschmann](https://github.com/niklasbuschmann).
 
 ## Installation (recommended)
 
@@ -33,6 +36,8 @@ For an example repo you can look at the [demo](https://github.com/niklasbuschman
  - responsive
  - syntax highlighting
  - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+ - supports SEO
+ - supports Google Analytics
 
 ## Based on
 
@@ -47,16 +52,3 @@ For an example repo you can look at the [demo](https://github.com/niklasbuschman
 
 [public domain](http://unlicense.org/)
 
-## Additional Screenshots
-
-### With navbar
-
-![screenshot](https://user-images.githubusercontent.com/4943215/50602342-6bafd400-0eb7-11e9-8275-d0986af3061f.png)
-
-### With navbar and style: contrast
-
-![screenshot](https://user-images.githubusercontent.com/4943215/50602434-82562b00-0eb7-11e9-86f3-ac9b6f577843.png)
-
-### With navbar and style: minimal
-
-![screenshot](https://user-images.githubusercontent.com/4943215/50602485-ae71ac00-0eb7-11e9-8b37-5dd9b5c09d8d.png)
