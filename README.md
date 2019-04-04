@@ -50,5 +50,5 @@ For an example repository, you can look at the [demo](https://shaurita.codes/) o
 
 ## License
 
-[public domain](http://unlicense.org/)
+![alt text](https://unlicense.org/pd-icon.png "Unlicense logo")
 
