@@ -1,6 +1,8 @@
 .DS_Store
 .bundle
 .sass-cache
+.RHistory
+.Rhistory
 Gemfile.lock
 _site
 *.gem
